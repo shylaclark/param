@@ -22,6 +22,12 @@ extras_require = {
         'nose',
         'flake8',
         'jsonschema',
+    ],
+    'doc': [
+        'pygraphviz',
+        'nbsite >=0.6.1',
+        'sphinx_holoviz_theme',
+        'tornado <6.0'
     ]
 }
 
